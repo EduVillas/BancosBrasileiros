@@ -10,6 +10,6 @@ CREATE TABLE Banks (
     PixType VARCHAR(4) NULL,
     Url VARCHAR(255) NULL,
     DateOperationStarted CHAR(10) NULL,
-    DatePixStarted CHAR(10) NULL,
+    DatePixStarted CHAR(19) NULL,
     DateRegistered DATETIME NOT NULL,
     DateUpdated DATETIME NOT NULL);
