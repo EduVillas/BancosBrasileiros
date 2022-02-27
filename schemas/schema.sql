@@ -5,7 +5,7 @@ CREATE TABLE Banks (
     Document CHAR(18) NOT NULL,
     LongName VARCHAR(255) NOT NULL,
     ShortName VARCHAR(255) NOT NULL,
-    Network VARCHAR(10) NULL,
+    Network VARCHAR(14) NULL,
     Type VARCHAR(30) NULL,
     PixType VARCHAR(4) NULL,
     Url VARCHAR(255) NULL,
